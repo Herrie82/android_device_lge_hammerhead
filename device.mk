@@ -125,11 +125,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl \
     libbt-vendor
 
-# Live Wallpapers
-PRODUCT_PACKAGES += \
-    LiveWallpapersPicker \
-    librs_jni
-
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.mapper@2.0-impl \
@@ -139,7 +134,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8974 \
     android.hardware.memtrack@1.0-impl \
     memtrack.msm8974 \
-    libqdutils \
+    libqdutils
     libqdMetaData
 
 # RenderScript HAL
@@ -186,8 +181,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     camera.hammerhead \
     mm-jpeg-interface-test \
-    mm-qcamera-app \
-    Snap
+    mm-qcamera-app
 
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
@@ -208,9 +202,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0-impl-bcm \
     android.hardware.nfc@1.0-service \
-    nfc_nci.bcm2079x.default \
-    NfcNci \
-    Tag
+    nfc_nci.bcm2079x.default
 
 # Vibrator HAL
 PRODUCT_PACKAGES += \
