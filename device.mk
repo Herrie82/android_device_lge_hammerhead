@@ -134,7 +134,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8974 \
     android.hardware.memtrack@1.0-impl \
     memtrack.msm8974 \
-    libqdutils
+    libqdutils \
     libqdMetaData
 
 # RenderScript HAL
