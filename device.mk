@@ -125,7 +125,8 @@ PRODUCT_PACKAGES := \
     hostapd \
     wificond \
     wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant.conf \
+    libnetutils
 
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl \
@@ -139,11 +140,6 @@ PRODUCT_PACKAGES += \
 # LiveDisplay HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sysfs
-
-# Live Wallpapers
-PRODUCT_PACKAGES += \
-    LiveWallpapersPicker \
-    librs_jni
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
@@ -226,9 +222,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0-impl-bcm \
     android.hardware.nfc@1.0-service \
-    nfc_nci.bcm2079x.default \
-    NfcNci \
-    Tag
+    nfc_nci.bcm2079x.default
 
 # Seccomp
 PRODUCT_COPY_FILES += \
@@ -284,7 +278,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl
 
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0-impl
+    android.hardware.sensors@1.0-impl \
+    android.hardware.sensors@1.0-service
 
 # AptX
 PRODUCT_COPY_FILES += \

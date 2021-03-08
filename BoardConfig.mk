@@ -143,3 +143,6 @@ SELINUX_IGNORE_NEVERALLOWS := true
 endif
 
 -include vendor/lge/hammerhead/BoardConfigVendor.mk
+
+# Halium requires BOARD_BUILD_SYSTEM_ROOT_IMAGE for non-Trebble devices
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
