@@ -146,3 +146,5 @@ endif
 
 # Halium requires BOARD_BUILD_SYSTEM_ROOT_IMAGE for non-Trebble devices
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+
+BOARD_ROOT_EXTRA_FOLDERS += firmware persist
